@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Михаил | Фрилансер</title>
+
+    <link rel="icon" type="image/x-icon" href="img/icons/shortcut_icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+
+
+    <!-- Header -->
+
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Михаил <span>Фрилансер</span></a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Главная</a>
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#portfolio" class="nav-link">Портфолио</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#testimonials" class="nav-link">Отзывы</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+                <label class="theme-switch">
+                    <input type="checkbox" id="theme-input">
+                    <div class="theme-slider">
+                        <div class="circle"></div>
+                    </div>
+                </label>
+            </nav>
+
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- Fullscreen Menu -->
+
+    <div class="fullscreen-menu">
+        <div class="fullscreen-btns">
+            <label class="theme-switch theme-mobile">
+                <input type="checkbox" class="theme-input">
+                <div class="theme-slider">
+                    <div class="circle"></div>
+                </div>
+            </label>
+            <div class="close-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        
+        <nav class="fullscreen-nav-links">
+            <a href="#home" class="fullscreen-nav-link">Главная</a>
+            <a href="#about" class="fullscreen-nav-link">Обо мне</a>
+            <a href="#portfolio" class="fullscreen-nav-link">Портфолио</a>
+            <a href="#services" class="fullscreen-nav-link">Услуги</a>
+            <a href="#testimonials" class="fullscreen-nav-link">Отзывы</a>
+            <a href="#contact" class="fullscreen-nav-link">Контакты</a>
+        </nav>
+    </div>
+
+
+
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="particles" id="particles-js"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Привет, я Михаил, <span>креативный фрилансер</span></h1>
+                <p class="hero-subtitle">Создаю мощные инструменты для автоматизации бизнеса и развлечений. От парсеров данных до телеграм-ботов — я помогу вам сэкономить время и увеличить прибыль.</p>
+                <div class="hero-btns">
+                    <a href="#portfolio" class="btn btn-primary">Посмотреть работы</a>
+                    <a href="#contact" class="btn btn-outline">Связаться со мной</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- About Section -->
+
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="img/about-me.png" alt="Михаил - разработчик" class="floating">
+                </div>
+                <div class="about-content">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <div class="code-dot red"></div>
+                            <div class="code-dot yellow"></div>
+                            <div class="code-dot green"></div>
+                        </div>
+                        <div class="code-content">
+                            <p class="mono" style="color: #ffffff">// Опыт и специализация</p>
+                            <p class="mono"><span style="color: #569CD6">const</span> <span style="color: #4EC9B0">aboutMe</span> <span style="color: #D4D4D4">=</span> <span style="color: #CE9178">`Я занимаюсь разработкой автоматизированных решений уже более 8 лет. Мои инструменты помогают бизнесу экономить время и увеличивать прибыль. Специализируюсь на создании сложных парсеров данных, многофункциональных телеграм-ботов, юзерботов для автоматизации социальных сетей и казуальных игр. В каждом проекте я уделяю внимание не только функциональности, но и стабильности работы, а также защите от обнаружения и блокировок.`</span>;</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python / C# / C++</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 97%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Парсинг данных</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 100%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Работа с API</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 96%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Игровая разработка</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Portfolio Section -->
+
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="parser">Парсеры</button>
+                <button class="filter-btn" data-filter="userbot">Юзерботы</button>
+                <button class="filter-btn" data-filter="game">Игры</button>
+                <button class="filter-btn" data-filter="other">Разное</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Portfolio items will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Portfolio Modal -->
+
+    <div class="portfolio-modal">
+        <div class="modal-container">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Название проекта</h3>
+                    <p class="modal-subtitle">Краткое описание проекта</p>
+                    
+                </div>
+                <div class="modal-gallery">
+                    <div class="modal-gallery-slider" id="modal-gallery-slider"></div>
+                    <div class="modal-gallery-nav">
+                        <button id="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button id="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <p class="modal-category">Категория: <span>Парсер</span></p>
+                <div class="modal-tags"></div>
+                <div class="modal-desc">
+                    <p>Описание проекта будет здесь</p>
+                </div>
+                <div class="modal-links">
+                    <a href="#" class="btn btn-primary modal-link" target="_blank">Посмотреть проект</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Fullscreen изображение -->
+
+    <div class="fullscreen-image">
+        <span class="fullscreen-image-close"><i class="fas fa-times"></i></span>
+        <img src="" alt="">
+    </div>
+
+
+
+
+    <!-- Services Section -->
+
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">Услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="service-title">Разработка парсера</h3>
+                    <p class="service-price">от 2500 рублей</p>
+                    <p class="service-desc">Создание парсеров для сбора данных с сайтов, API и других источников. Быстро, надежно и с защитой от блокировок.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="service-title">Телеграм-бот</h3>
+                    <p class="service-price">от 5000 рублей</p>
+                    <p class="service-desc">Разработка многофункциональных телеграм-ботов для автоматизации бизнес-процессов, рассылок и взаимодействия с клиентами.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <h3 class="service-title">Юзербот</h3>
+                    <p class="service-price">от 2500 рублей</p>
+                    <p class="service-desc">Создание юзерботов для автоматизации действий в социальных сетях и мессенджерах под видом реального пользователя.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h3 class="service-title">Спаммер</h3>
+                    <p class="service-price">от 3000 рублей</p>
+                    <p class="service-desc">Разработка инструментов для массовых рассылок с настройкой таймингов, антиспам-защитой и аналитикой эффективности.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="service-title">Разработка игры</h3>
+                    <p class="service-price">от 5000 рублей</p>
+                    <p class="service-desc">Создание казуальных игр и игровых механик для веба, мобильных платформ и Telegram.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="service-title">Прочее</h3>
+                    <p class="service-price">цена договорная</p>
+                    <p class="service-desc">Разработка индивидуальных решений под ваши задачи. Автоматизация любых процессов, интеграции и нестандартные проекты.</p>
+                </div>
+            </div>
+            <div class="payment-info">
+                <p><i class="fas fa-shield-alt"></i> Безопасная сделка: оплата только после выполнения работы и проверки результата</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Testimonials Section -->
+
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <div class="testimonials-slider">
+                <div class="testimonials-track" id="testimonials-track">
+                </div>
+            </div>
+            <div class="slider-controls">
+                <div class="slider-btn" id="prev-testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="slider-btn" id="next-testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="slider-dots" id="testimonial-dots">
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Contact Section -->
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-grid">
+                <a href="https://t.me/mixail_dev" target="_blank" class="contact-card telegram-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram</h3>
+                    <p>@mixail_dev</p>
+                    <div class="online-badge">В сети</div>
+                </a>
+
+                <a href="https://yandex.ru/games/developer/26390" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Яндекс.Игры</h3>
+                    <p>Мои проекты</p>
+                </a>
+
+                <a href="mailto:misha-ch@bk.ru" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Почта</h3>
+                    <p>misha-ch@bk.ru</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <h3 class="logo">Михаил <span>Фрилансер</span></h3>
+                    <p>Разработка автоматизированных решений для вашего бизнеса: парсеры, боты, спаммеры и игры.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Быстрые ссылки</h3>
+                    <div class="footer-links">
+                        <a href="#home" class="footer-link"><i class="fas fa-chevron-right"></i> Главная</a>
+                        <a href="#about" class="footer-link"><i class="fas fa-chevron-right"></i> Обо мне</a>
+                        <a href="#portfolio" class="footer-link"><i class="fas fa-chevron-right"></i> Портфолио</a>
+                        <a href="#services" class="footer-link"><i class="fas fa-chevron-right"></i> Услуги</a>
+                        <a href="#testimonials" class="footer-link"><i class="fas fa-chevron-right"></i> Отзывы</a>
+                        <a href="#contact" class="footer-link"><i class="fas fa-chevron-right"></i> Контакты</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <div class="footer-contact-items">
+                        <div class="footer-contact-item">
+                            <a href="https://t.me/mixail_dev" target="_blank" class="footer-link"><i class="fab fa-telegram"></i> Telegram</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <a href="https://yandex.ru/games/developer/26390" target="_blank" class="footer-link"><i class="fas fa-gamepad"></i> Яндекс.Игры</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <a href="mailto:misha-ch@bk.ru" class="footer-link"><i class="fas fa-envelope"></i> misha-ch@bk.ru</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Фрилансер Михаил | Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Back to Top Button -->
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+
+
+    <!-- Scripts -->
+
+    <script src="libs/particles.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
